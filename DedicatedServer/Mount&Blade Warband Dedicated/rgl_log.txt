@@ -1,0 +1,305 @@
+Starting new log file.
+ Version:  1.170 
+ 
+ Processing Ini File {
+ Module_name =  Calradia 
+ Num Hints =  12 
+ Setting Map Min X =  -180.000000 
+ Setting Map Max X =  180.000000 
+ Setting Map Min Y =  -145.000000 
+ Setting Map Max Y =  145.000000 
+ Setting Time Multiplier =  0.250000 
+ Setting Seeing Range Multiplier =  6.500000 
+ Setting Track Spotting Multiplier =  0.800000 
+ Setting player_wounded_treshold =  5.000000 
+ Setting hero_wounded_treshold =  15.000000 
+ Setting Skill Prisoner Management Bonus =  5 
+ Setting Skill Leadership Bonus =  3 
+ Setting Base Companion Limit =  20 
+ Setting player_xp_multiplier =  2.000000 
+ Setting hero_xp_multiplier =  2.000000 
+ Setting regulars_xp_multiplier =  3.000000 
+ Setting damage_interrupt_attack_treshold =  3.000000 
+ Setting damage_interrupt_attack_treshold_mp =  1.000000 
+ Setting armor_soak_factor_against_cut =  0.800000 
+ Setting armor_soak_factor_against_pierce =  0.650000 
+ Setting armor_soak_factor_against_blunt =  0.500000 
+ Setting armor_reduction_factor_against_cut =  1.000000 
+ Setting armor_reduction_factor_against_pierce =  0.500000 
+ Setting armor_reduction_factor_against_blunt =  0.750000 
+ Setting horse_charge_damage_multiplier =  1.000000 
+ Setting couched_lance_damage_multiplier =  0.650000 
+ Setting fall_damage_multiplier =  1.000000 
+ Setting shield_penetration_offset =  30.000000 
+ Setting shield_penetration_factor =  3.000000 
+ Setting missile_damage_speed_power =  1.900000 
+ Setting melee_damage_speed_power =  2.000000 
+ Setting multiplayer_walk_enabled =  0 
+ Setting mission_object_prune_time =  180 
+ Scan Module Textures =  1 
+ Scan Module Sounds =  0 
+ Loading Resource  test 
+ Loading Resource  textures_face_gen 
+ Loading Resource  shaders 
+ Loading Resource  textures 
+ Loading Resource  ccoop_extra_ui_textures 
+ Loading Resource  materials 
+ Loading Resource  materials_face_gen 
+ Loading Resource  ccoop_extra_ui_materials 
+ Loading Resource  uimeshes 
+ Loading Resource  meshes_face_gen 
+ Loading Resource  helpers 
+ Loading Resource  map_tree_meshes 
+ Loading Resource  map_icon_meshes 
+ Loading Resource  particle_meshes 
+ Loading Resource  skeletons 
+ Loading Resource  tree_meshes 
+ Loading Resource  xtree_meshes 
+ Loading Resource  grass_meshes 
+ Loading Resource  plant_meshes 
+ Loading Resource  body_meshes 
+ Loading Resource  object_meshes 
+ Loading Resource  object_bodies 
+ Loading Resource  goods_meshes 
+ Loading Resource  item_meshes1 
+ Loading Resource  horse_a 
+ Loading Resource  arabian_horses 
+ Loading Resource  arabian_castle 
+ Loading Resource  food 
+ Loading Resource  beards 
+ Loading Resource  armors_b 
+ Loading Resource  armors_c 
+ Loading Resource  armors_d 
+ Loading Resource  armors_e 
+ Loading Resource  armors_f 
+ Loading Resource  armors_g 
+ Loading Resource  armors_h 
+ Loading Resource  armors_i 
+ Loading Resource  boots_b 
+ Loading Resource  boots_c 
+ Loading Resource  helmets 
+ Loading Resource  helmets_b 
+ Loading Resource  village_houses 
+ Loading Resource  village_houses_a 
+ Loading Resource  village_houses_b 
+ Loading Resource  hair 
+ Loading Resource  deneme 
+ Loading Resource  interiors_a 
+ Loading Resource  interiors_b 
+ Loading Resource  interiors_c 
+ Loading Resource  arena 
+ Loading Resource  map_icons_b 
+ Loading Resource  castle_a 
+ Loading Resource  dungeon 
+ Loading Resource  stone_houses 
+ Loading Resource  snowy_houses 
+ Loading Resource  snowy_castle 
+ Loading Resource  helmets_d 
+ Loading Resource  helmets_e 
+ Loading Resource  helmets_f 
+ Loading Resource  castle_b 
+ Loading Resource  square_keep 
+ Loading Resource  anim_b 
+ Loading Resource  shields 
+ Loading Resource  shields_b 
+ Loading Resource  weapon_meshes_c 
+ Loading Resource  xtree_meshes_b 
+ Loading Resource  map_icons_c 
+ Loading Resource  pictures 
+ Loading Resource  user_interface_b 
+ 
+rgl_post_warning_line: WARNING: Unable to find material mp_ui_host_maps_e for mesh mp_ui_host_maps_e1 
+rgl_post_warning_line: WARNING: Unable to find material mp_ui_host_maps_e for mesh mp_ui_host_maps_e2 Loading Resource  user_interface_c 
+ Loading Resource  scene_encounter_spot 
+ Loading Resource  interior_thirsty_lion 
+ Loading Resource  scene_small_tavern 
+ Loading Resource  weapon_meshes1 
+ Loading Resource  weapon_meshes_b 
+ Loading Resource  houses1 
+ Loading Resource  wall_meshes1 
+ Loading Resource  town_houses 
+ Loading Resource  doors 
+ Loading Resource  churches 
+ Loading Resource  town_houses_b 
+ Loading Resource  castle_c 
+ Loading Resource  castle_d 
+ Loading Resource  castle_e 
+ Loading Resource  castle_f 
+ Loading Resource  castle_g 
+ Loading Resource  castle_h 
+ Loading Resource  castle_i 
+ Loading Resource  gatehouse 
+ Loading Resource  viking_houses 
+ Loading Resource  fake_houses 
+ Loading Resource  town_houses_c 
+ Loading Resource  banners 
+ Loading Resource  map_flags 
+ Loading Resource  map_flags_b 
+ Loading Resource  map_flags_c 
+ Loading Resource  map_flags_d 
+ Loading Resource  particles_2 
+ Loading Resource  prisons 
+ Loading Resource  prisons_b 
+ Loading Resource  interiors_d 
+ Loading Resource  costumes_b 
+ Loading Resource  costumes_c 
+ Loading Resource  arena_costumes 
+ Loading Resource  boots_a 
+ Loading Resource  terrain_borders 
+ Loading Resource  terrain_borders_b 
+ Loading Resource  terrain_borders_c 
+ Loading Resource  skyboxes 
+ Loading Resource  object_b 
+ Loading Resource  tree_e_meshes 
+ Loading Resource  destroy 
+ Loading Resource  destroy_snowy 
+ Loading Resource  xtree_meshes_c 
+ Loading Resource  grass_meshes_b 
+ Loading Resource  interiors_steppe 
+ Loading Resource  grooming_horse 
+ Loading Resource  town_houses_d 
+ Loading Resource  horses_b 
+ Loading Resource  ani_horse_mounted 
+ Loading Resource  deneme2 
+ Loading Resource  horse_skeleton 
+ Loading Resource  steppe_fake_houses 
+ Loading Resource  weapon_meshes_d 
+ Loading Resource  tableau_shields 
+ Loading Resource  heraldic_armors 
+ Loading Resource  spear 
+ Loading Resource  weapons_e 
+ Loading Resource  weapons_f 
+ Loading Resource  instruments 
+ Loading Resource  sarranid_armors 
+ Loading Resource  custom_banner 
+ Loading Resource  simple_primitives 
+ Loading Resource  ani_man_walk 
+ Loading Resource  ani_twohanded 
+ Loading Resource  ani_onehanded 
+ Loading Resource  ani_death 
+ Loading Resource  ani_stand_guardsman 
+ Loading Resource  ani_human_mounted 
+ Loading Resource  ani_lady_stand 
+ Loading Resource  ani_poses 
+ Loading Resource  ani_stand_shopkeeper 
+ Loading Resource  ani_man_cheer 
+ Loading Resource  ani_stand_onhorse 
+ Loading Resource  ani_throw_stone 
+ Loading Resource  ani_strikes 
+ Loading Resource  ani_equip_arms 
+ Loading Resource  ani_run_p 
+ Loading Resource  ani_run_forward_left_right 
+ Loading Resource  uni_strikes3 
+ Loading Resource  ani_walk_sideways 
+ Loading Resource  ani_run_sideways 
+ Loading Resource  ani_stand 
+ Loading Resource  ani_crouch_down 
+ Loading Resource  ani_low_walk 
+ Loading Resource  ani_turn_man 
+ Loading Resource  ani_attacks_single 
+ Loading Resource  ani_lancer 
+ Loading Resource  ani_attacks 
+ Loading Resource  ani_kicks 
+ Loading Resource  ani_parry_attack 
+ Loading Resource  ani_walk_backward 
+ Loading Resource  ani_run_lookingsides 
+ Loading Resource  ani_defends 
+ Loading Resource  ani_walk_lookingsides 
+ Loading Resource  ani_jump 
+ Loading Resource  ani_wedding 
+ Loading Resource  arabian_props 
+ Loading Resource  uni_jump 
+ Loading Resource  uni_stances 
+ Loading Resource  uni_equip 
+ Loading Resource  uni_strike 
+ Loading Resource  uni_throws 
+ Loading Resource  uni_fistswing 
+ Loading Resource  uni_lord_stand 
+ Loading Resource  uni_defence 
+ Loading Resource  uni_sideways 
+ Loading Resource  dart 
+ Loading Resource  armors_new_a 
+ Loading Resource  armors_new_b 
+ Loading Resource  armors_new_heraldic 
+ Loading Resource  armors_new_arena 
+ Loading Resource  crossbows 
+ Loading Resource  arabian_armors 
+ Loading Resource  rock 
+ Loading Resource  costumes_d 
+ Loading Resource  nordic_helmets 
+ Loading Resource  sarranid_helmets 
+ Loading Resource  sarranid_armor 
+ Loading Resource  raw_materials 
+ Loading Resource  khergit_lady_dress 
+ Loading Resource  vaegir_helmets 
+ Loading Resource  gauntlets_new 
+ Loading Resource  sarranid_lady_dress 
+ Loading Resource  sarranid_boots 
+ Loading Resource  bride_dress 
+ Loading Resource  full_plate_armor 
+ Loading Resource  weapon_meshes_e 
+ Loading Resource  fur_armors_a 
+ Loading Resource  ui_server_filter 
+ Loading Resource  warhorse_new 
+ Loading Resource  ship 
+ Loading Resource  arabian_houses 
+ Loading Resource  object_c 
+ Loading Resource  tree_f 
+ Loading Resource  interiors_arabian 
+ Loading Resource  arabian_village 
+ Loading Resource  valleyProps 
+ Loading Resource  workshops 
+ Loading Resource  barrier_primitives 
+ Loading Resource  town_houses_e 
+ Loading Resource  wb_mp_objects_a 
+ Loading Resource  prisonCart 
+ Loading Resource  ccoop_extra_ui_meshes 
+ 
+} //Processing Ini File Finished
+ WARNING: UNABLE TO MAP SOUND CODE:  snd_release_crossbow_medium 
+ WARNING: UNABLE TO MAP SOUND CODE:  snd_release_crossbow_far 
+ WARNING: UNABLE TO MAP SOUND CODE:  snd_bullet_hit_body 
+ WARNING: UNABLE TO MAP SOUND CODE:  snd_player_hit_by_bullet 
+ WARNING: UNABLE TO MAP GAME SCRIPT CODE:  game_check_party_sees_party 
+ WARNING: UNABLE TO MAP GAME SCRIPT CODE:  game_get_party_speed_multiplier 
+ WARNING: UNABLE TO MAP GAME SCRIPT CODE:  game_missile_launch 
+ WARNING: UNABLE TO MAP GAME SCRIPT CODE:  game_missile_dives_into_water 
+ WARNING: UNABLE TO MAP GAME SCRIPT CODE:  game_troop_upgrades_button_clicked 
+ WARNING: UNABLE TO MAP GAME SCRIPT CODE:  game_character_screen_requested 
+ Loading Module...
+ Loading item kinds...
+ Loading dialogs...
+ Loading mission templates...
+ Loading party templates...
+ 
+rgl_post_warning_line: get_skeleton_anim failed for: equip_musket 
+rgl_post_warning_line: get_skeleton_anim failed for: equip_musket 
+rgl_post_warning_line: get_skeleton_anim failed for: crouch_stand_man 
+rgl_post_warning_line: get_skeleton_anim failed for: crouch_stand_man 
+rgl_post_warning_line: get_skeleton_anim failed for: crouch_greatsword_cstance 
+rgl_post_warning_line: get_skeleton_anim failed for: crouch_staff_cstance 
+rgl_post_warning_line: get_skeleton_anim failed for: crouch_fire_pistol 
+rgl_post_warning_line: get_skeleton_anim failed for: crouch_fire_pistol 
+rgl_post_warning_line: get_skeleton_anim failed for: man_reload 
+rgl_post_warning_line: get_skeleton_anim failed for: man_reload 
+rgl_post_warning_line: get_skeleton_anim failed for: man_reload 
+rgl_post_warning_line: get_skeleton_anim failed for: crouch_staff_cstance_attack 
+rgl_post_warning_line: get_skeleton_anim failed for: crouch_staff_cstance_attack 
+rgl_post_warning_line: get_skeleton_anim failed for: spear_thrust_overhead 
+rgl_post_warning_line: get_skeleton_anim failed for: spear_thrust_overhead 
+rgl_post_warning_line: get_skeleton_anim failed for: spear_thrust_overhead 
+rgl_post_warning_line: get_skeleton_anim failed for: spear_thrust_overhead 
+rgl_post_warning_line: get_skeleton_anim failed for: spear_thrust_overhead 
+rgl_post_warning_line: get_skeleton_anim failed for: reload_pistol_new 
+rgl_post_warning_line: get_skeleton_anim failed for: musket_upper_swing 
+rgl_post_warning_line: get_skeleton_anim failed for: musket_upper_swing 
+rgl_post_warning_line: get_skeleton_anim failed for: musket_upper_swing 
+rgl_post_warning_line: get_skeleton_anim failed for: musket_upper_swing 
+rgl_post_warning_line: get_skeleton_anim failed for: musket_upper_swing 
+rgl_post_warning_line: get_skeleton_anim failed for: musket_thrust_forward 
+rgl_post_warning_line: get_skeleton_anim failed for: musket_thrust_forward 
+rgl_post_warning_line: get_skeleton_anim failed for: musket_thrust_forward 
+rgl_post_warning_line: get_skeleton_anim failed for: musket_thrust_forward_parry 
+rgl_post_warning_line: get_skeleton_anim failed for: musket_thrust_forward_parry 
+rgl_post_warning_line: get_skeleton_anim failed for: equip_pistol 
+rgl_post_warning_line: get_skeleton_anim failed for: equip_pistol 

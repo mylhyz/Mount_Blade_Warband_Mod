@@ -1,0 +1,1 @@
+mb_warband_dedicated.exe -r Sample_Invasion.txt -m Native

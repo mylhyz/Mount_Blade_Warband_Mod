@@ -1,0 +1,15 @@
+10:19:56 - SERVER has joined the game with ID: 0 and has administrator rights. 
+ 10:23:24 - captainlust has joined the game with ID: 1139534 
+ 10:24:33 - Klethi <img=ico_axeone> Vaegir Recruit 
+ 10:24:36 - Klethi <img=ico_axeone> Vaegir Recruit 
+ 10:24:38 - Klethi <img=ico_axeone> Vaegir Recruit 
+ 10:24:43 - Jeremus <img=ico_spear> Vaegir Recruit 
+ 10:25:47 - Klethi <img=ico_axeone> Vaegir Footman 
+ 10:25:50 - Klethi <img=ico_axeone> Vaegir Footman 
+ 10:25:53 - Klethi <img=ico_axeone> Vaegir Footman 
+ 10:25:56 - Klethi <img=ico_axeone> Vaegir Recruit 
+ 10:26:55 - Klethi <img=ico_headshot> Boyar Crahask 
+ 10:26:56 - Vaegir Knight <img=ico_axetwo> captainlust 
+ 10:26:57 - Vaegir Knight <img=ico_axetwo> Jeremus 
+ 10:27:05 - Vaegir Knight <img=ico_axetwo> Klethi 
+ 

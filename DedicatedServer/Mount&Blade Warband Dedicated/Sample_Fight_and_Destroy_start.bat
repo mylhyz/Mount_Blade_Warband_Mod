@@ -1,0 +1,1 @@
+mb_warband_dedicated.exe -r Sample_Fight_and_Destroy.txt -m Native
