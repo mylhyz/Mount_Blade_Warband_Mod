@@ -951,13 +951,13 @@ game_menus = [
           ]
           ),
          # start setting for mod testing
-         ("start_quick", [(eq, 1, 1), ], "Quick Character Setting",
-          [
-              (troop_set_type, "trp_player", 0),
-              (assign, "$character_gender", tf_male),
-              (troop_raise_attribute, "trp_player", ca_intelligence, -4),
-              (change_screen_return, 0),
-          ]),
+         # ("start_quick", [(eq, 1, 1), ], "Quick Character Setting",
+         #  [
+         #      (troop_set_type, "trp_player", 0),
+         #      (assign, "$character_gender", tf_male),
+         #      (troop_raise_attribute, "trp_player", ca_intelligence, -4),
+         #      (change_screen_return, 0),
+         #  ]),
          # end setting for mod testing
          ("go_back", [], "Go back",
           [
@@ -3013,10 +3013,10 @@ game_menus = [
           ),
 
          # 测试如何创建菜单
-         ("camp_mod_test", [], "Go to the modding menu",
-          [
-              (jump_to_menu, "mnu_camp_modding")
-          ]),
+         # ("camp_mod_test", [], "Go to the modding menu",
+         #  [
+         #      (jump_to_menu, "mnu_camp_modding")
+         #  ]),
          # end
 
          ("camp_wait_here", [], "Wait here for some time.",
@@ -7639,6 +7639,31 @@ game_menus = [
                  (jump_to_menu, "mnu_recruit_volunteers"),
                  (try_end),
              ]),
+
+            # 直接会见村庄长老（村长）的菜单代码
+            ("village_elder_meeting",
+             [
+                 (neg | party_slot_eq, "$current_town", slot_village_state, svs_looted),
+                 (neg | party_slot_eq, "$current_town", slot_village_state, svs_being_raided),
+                 (neg | party_slot_eq, "$current_town", slot_village_infested_by_bandits, 1)
+             ],
+             "Meet with the Village Elder",
+             [
+                 (try_begin),
+                 (call_script, "script_cf_enter_center_location_bandit_check"),
+                 (else_try),
+                 (modify_visitors_at_site, "scn_conversation_scene"),
+                 (reset_visitors),
+                 (set_visitor, 0, "trp_player"),
+                 (party_get_slot, ":village_elder_troop", "$current_town", slot_town_elder),
+                 (set_visitor, 11, ":village_elder_troop"),
+                 (set_jump_mission, "mt_conversation_encounter"),
+                 (jump_to_scene, "scn_conversation_scene"),
+                 (change_screen_map_conversation, ":village_elder_troop"),
+                 (try_end)
+             ]
+             ),
+
             ("village_center", [(neg | party_slot_eq, "$current_town", slot_village_state, svs_looted),
                                 (neg | party_slot_eq, "$current_town", slot_village_state, svs_being_raided),
                                 (neg | party_slot_ge, "$current_town", slot_village_infested_by_bandits, 1), ]
@@ -9097,6 +9122,24 @@ game_menus = [
                  (change_screen_mission),
                  (try_end),
              ], "Door to the town center."),
+
+            ("guild_master_meeting", [(party_slot_eq, "$current_town", slot_party_type, spt_town)],
+             "Meet with the Guild Master.",
+             [
+                 (try_begin),
+                 (call_script, "script_cf_enter_center_location_bandit_check"),
+                 (else_try),
+                 (modify_visitors_at_site, "scn_conversation_scene"),
+                 (reset_visitors),
+                 (set_visitor, 0, "trp_player"),
+                 (party_get_slot, ":guild_master_troop", "$current_town", slot_town_elder),
+                 (set_visitor, 11, ":guild_master_troop"),
+                 (set_jump_mission, "mt_conversation_encounter"),
+                 (jump_to_scene, "scn_conversation_scene"),
+                 (change_screen_map_conversation, ":guild_master_troop"),
+                 (try_end)
+             ]
+             ),
 
             ("town_tavern", [
                 (party_slot_eq, "$current_town", slot_party_type, spt_town),
@@ -14622,33 +14665,34 @@ game_menus = [
           ]),
      ]
      ),
+
     # 测试如何完整创建菜单，需要注意的是 jump_to_menu 命令跳转的目标都是顶级菜单，次级选项即使id和顶级菜单相同也不是跳转的目标，同时二者也不会冲突
-    ("camp_modding", 0, "Select an options:", "none", [],
-     [
-         ("camp_mod_1", [], "Increase player's renown.",
-          [
-              (str_store_string, s1, "@Player renown is increased by 100."),
-              (call_script, "script_change_troop_renown", "trp_player", 100),
-              (jump_to_menu, "mnu_camp_modding")
-          ]
-          ),
-         ("camp_mod_2", [], "Raise player's attribute and skills.",
-          [
-              (troop_raise_attribute, "trp_player", ca_strength, 20),
-              (troop_raise_skill, "trp_player", skl_riding, 10),
-              (jump_to_menu, "mnu_camp_modding")
-          ]
-          ),
-         ("camp_mod_3", [], "Spawn a party nearby.",
-          [
-              (spawn_around_party, "p_main_party", "pt_looters"),
-              (display_message, "@Party spawned nearby.")
-          ]
-          ),
-         ("camp_mod_4", [], "Back to camp menu.",
-          [
-              (jump_to_menu, "mnu_camp")
-          ]
-          )
-     ]),
+    # ("camp_modding", 0, "Select an options:", "none", [],
+    #  [
+    #      ("camp_mod_1", [], "Increase player's renown.",
+    #       [
+    #           (str_store_string, s1, "@Player renown is increased by 100."),
+    #           (call_script, "script_change_troop_renown", "trp_player", 100),
+    #           (jump_to_menu, "mnu_camp_modding")
+    #       ]
+    #       ),
+    #      ("camp_mod_2", [], "Raise player's attribute and skills.",
+    #       [
+    #           (troop_raise_attribute, "trp_player", ca_strength, 20),
+    #           (troop_raise_skill, "trp_player", skl_riding, 10),
+    #           (jump_to_menu, "mnu_camp_modding")
+    #       ]
+    #       ),
+    #      ("camp_mod_3", [], "Spawn a party nearby.",
+    #       [
+    #           (spawn_around_party, "p_main_party", "pt_looters"),
+    #           (display_message, "@Party spawned nearby.")
+    #       ]
+    #       ),
+    #      ("camp_mod_4", [], "Back to camp menu.",
+    #       [
+    #           (jump_to_menu, "mnu_camp")
+    #       ]
+    #       )
+    #  ]),
 ]

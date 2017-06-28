@@ -8,6 +8,9 @@
 
 ## Mod系统
 
+- 会见村长，镇长的拓展 [M&B中文站](http://bbs.mountblade.com.cn/forum.php?mod=viewthread&tid=61311)
+- 其他拓展教程集合 [M&B中文站](http://bbs.mountblade.com.cn/forum.php?mod=viewthread&tid=54001)
+
 ## 导出动画
 
 ## 着色器/材质
