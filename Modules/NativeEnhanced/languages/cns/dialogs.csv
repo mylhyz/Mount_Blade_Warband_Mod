@@ -2667,3 +2667,4 @@ dlga_mayor_wealth_comparison_4:mayor_wealth_comparison_5|就 城 镇 的 商 旅
 dlga_mayor_wealth_comparison_5:mayor_pretalk|就 往 来 的 旅 人 和 客 商 受 到 攻 击 的 次 数 来 说 ， 最 危 险 的 城 镇 当 然 是 {s4}， 至 于 我 们 {s5}， 有 {reg4}个 城 镇 遭 受 的 匪 患 比 我 们 要 严 重 ， 而 遭 受 匪 患 侵 扰 轻 于 我 们 的 城 镇 则 有 {reg5}个 。 
 dlga_free:close_window|再 见 。 
 dlga_free:close_window.1|【 离 开 】 
+dlga_tavernkeeper_talk:ransom_broker_sell_prisoners|购 买 俘 虏 

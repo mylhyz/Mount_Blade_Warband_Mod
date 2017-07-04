@@ -19989,6 +19989,16 @@ I suppose there are plenty of bounty hunters around to get the job done . . .", 
    "Have you heard of anyone in this realm who might have a job for a {man/woman} like myself?", "tavernkeeper_job_ask",[
    ]],
 
+  [anyone|plyr,"tavernkeeper_talk",
+   [
+       [store_num_regular_prisoners,reg(0)],
+       [ge,reg(0),1],
+   ],
+   "I have got prisoners to sell.",
+   "ransom_broker_sell_prisoners",
+   []
+   ],
+
   [anyone,"tavernkeeper_job_ask",
    [
 	(str_store_string, s9, "str__of_course_the_land_is_currently_at_peace_so_you_may_have_better_luck_in_other_realms"),

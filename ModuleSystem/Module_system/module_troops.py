@@ -6,6 +6,7 @@ from ID_scenes import *
 from header_skills import *
 from header_troops import *
 
+
 ###################
 #
 # 军队和兵种的默认值
@@ -350,7 +351,10 @@ troops = [
      [itm_hide_boots],
      str_12 | agi_12 | level(23), wp(150), knows_common, mercenary_face_1, mercenary_face_2],
 
-    ["cattle", "Cattle", "Cattle", 0, no_scene, reserved, fac_neutral, [], def_attrib | level(1), wp(60), 0,
+    # cattle move faster
+    # ["cattle", "Cattle", "Cattle", 0, no_scene, reserved, fac_neutral, [], def_attrib | level(1), wp(60), 0,
+    #  mercenary_face_1, mercenary_face_2],
+    ["cattle", "Cattle", "Cattle", tf_mounted, no_scene, reserved, fac_neutral, [], def_attrib | level(1), wp(60), knows_pathfinding_10|knows_riding_10,
      mercenary_face_1, mercenary_face_2],
 
     # soldiers:

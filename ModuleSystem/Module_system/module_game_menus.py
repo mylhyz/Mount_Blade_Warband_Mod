@@ -3539,7 +3539,8 @@ game_menus = [
          ("cattle_drive_away", [], "Drive the cattle onward.",
           [
               (party_set_slot, "$g_encountered_party", slot_cattle_driven_by_player, 1),
-              (party_set_ai_behavior, "$g_encountered_party", ai_bhvr_driven_by_party),
+              # (party_set_ai_behavior, "$g_encountered_party", ai_bhvr_driven_by_party),
+              (party_set_ai_behavior, "$g_encountered_party", ai_bhvr_escort_party),  # 改赶牛为领牛
               (party_set_ai_object, "$g_encountered_party", "p_main_party"),
               (change_screen_return),
           ]
@@ -7642,7 +7643,7 @@ game_menus = [
 
             # 直接会见村庄长老（村长）的菜单代码
             ("village_elder_meeting",
-             [
+             [  # 判断情况，以下状态都不显示菜单 1.村庄状态-被洗劫一空 2.村庄状态-正在被搜查 3.村庄有草寇出没
                  (neg | party_slot_eq, "$current_town", slot_village_state, svs_looted),
                  (neg | party_slot_eq, "$current_town", slot_village_state, svs_being_raided),
                  (neg | party_slot_eq, "$current_town", slot_village_infested_by_bandits, 1)

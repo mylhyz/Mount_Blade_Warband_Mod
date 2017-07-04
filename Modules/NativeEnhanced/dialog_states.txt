@@ -953,6 +953,7 @@ tavernkeeper_buy_drinks
 tavernkeeper_buy_drinks_2
 tavernkeeper_buy_drinks_end
 tavernkeeper_job_ask
+ransom_broker_sell_prisoners
 tavernkeeper_job_search
 tavernkeeper_job_result
 tavernkeeper_job_result_2
@@ -964,7 +965,6 @@ ransom_broker_prices
 ransom_broker_ransom_me
 ransom_broker_pretalk
 ransom_broker_talk
-ransom_broker_sell_prisoners
 ransom_broker_ransom_companion
 ransom_broker_ransom_companion_choose
 ransom_broker_ransom_companion_name_sum
